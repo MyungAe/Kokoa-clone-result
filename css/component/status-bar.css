@@ -1,0 +1,23 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.communication-wrap,
+.battery-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.communication-wrap i,
+.battery-wrap i {
+  margin: 0 5px;
+}

@@ -1,0 +1,16 @@
+.header-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 10px 20px;
+}
+
+.button-wrap i {
+  margin: 0 20px;
+}
+
+.button-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

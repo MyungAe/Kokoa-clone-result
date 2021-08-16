@@ -1,0 +1,55 @@
+.context-wrap,
+.find-user-account {
+  text-align: center;
+}
+
+.context-wrap p,
+.login-input::placeholder {
+  color: #a7a7a7;
+}
+
+.context-wrap h1 {
+  margin-top: 100px;
+}
+
+.context-wrap p {
+  margin: 20px 0 100px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-input,
+.login-link,
+.login-link button {
+  width: 500px;
+  height: 80px;
+  border: 0;
+}
+
+.login-input {
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.login-input::placeholder,
+.login-input {
+  font-size: 24px;
+}
+
+.login-input:nth-child(2) {
+  margin-bottom: 50px;
+}
+
+.login-link,
+.find-user-account {
+  margin-top: 20px;
+}
+
+.login-link button {
+  background-color: #f6f6f6;
+  font-size: 18px;
+}

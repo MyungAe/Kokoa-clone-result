@@ -1,0 +1,140 @@
+.find-friends {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 10px;
+  background-color: #fafafa;
+}
+
+.find-friends span {
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.find-friends i {
+  color: #d5d5d5;
+}
+
+.user {
+  margin: 20px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.user-img {
+  width: 100px;
+  height: 100px;
+  background-image: url(../../imgs/younha.jpg);
+  background-size: 100px 100px;
+  border-radius: 40px;
+}
+
+.user-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.channel-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 30px;
+  color: #aeaeae;
+}
+
+.channel-title {
+  font-size: 18px;
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.channel-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 24px;
+  background-size: 60px 60px;
+  margin-right: 20px;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+}
+
+.channel-name {
+  font-size: 24px;
+}
+
+.channel-more {
+  font-size: 24px;
+  color: #aeaeae;
+}
+
+.channel-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  background-color: yellow;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+/* setting user */
+
+.younha {
+  background-image: url(../../imgs/younha.jpg);
+}
+
+.lyn {
+  background-image: url(../../imgs/lyn.jpg);
+}
+
+.iu {
+  background-image: url(../../imgs/iu.jpg);
+}
+
+.akmu {
+  background-image: url(../../imgs/akmu.jpg);
+}
+
+.boa {
+  background-image: url(../../imgs/boa.jpg);
+}
+
+.mujin {
+  background-image: url(../../imgs/leemujin.jpg);
+}

@@ -1,0 +1,85 @@
+.more-user-sub,
+.more-user {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.more-user-img {
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  border-radius: 30px;
+}
+
+.more-user-info {
+  margin-left: 20px;
+}
+
+.more-user-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.user-tel {
+  color: #aeaeae;
+  margin-right: 10px;
+}
+
+.user-report {
+  width: 15px;
+  height: 15px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 7.5px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.more-option-wrap,
+.more-suggestions-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.more-option-wrap {
+  border-bottom: 1px solid #aeaeae;
+}
+
+.more-option-button,
+.more-suggestions-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  height: 80px;
+}
+
+.more-option-info,
+.more-suggestions-info {
+  margin-top: 10px;
+}
+
+.more-suggestions-title,
+.more-wrap {
+  margin: 20px;
+}
+
+.more-suggestions-title {
+  font-weight: normal;
+  font-size: 18px;
+}
